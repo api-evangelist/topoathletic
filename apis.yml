@@ -1,8 +1,26 @@
 aid: topoathletic
-name: Topoathletic
-description: 'Topoathletic is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/topoathletic.png
+name: Topo Athletic
+description: 'Topo Athletic is a performance footwear brand offering road running,
+  trail running, hiking, and recovery shoes plus apparel and accessories (Topo Gear).
+  Its shoes are known for a roomy toe box, secure midfoot and heel fit, low heel-to-toe
+  drop, and the ZipFoam midsole, designed to promote natural movement and foot health.
+  Surfaced as a portfolio company of Norwest Venture Partners and added to the API
+  Evangelist network. Topo Athletic operates a direct-to-consumer e-commerce site at
+  topoathletic.com; as of this enrichment pass it publishes no public developer API,
+  developer portal, or API documentation. It does publish a machine-readable /llms.txt
+  describing its catalog and support surface.'
 url: https://raw.githubusercontent.com/api-evangelist/topoathletic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Unknown
+- Footwear
+- Running
+- Trail Running
+- Hiking
+- Apparel
+- Retail
+- Ecommerce
+- Consumer
+- Sportswear
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: LLMsTxt
+  url: llms/topoathletic-llms.txt
+- type: DomainSecurity
+  url: security/topoathletic-domain-security.yml
 - type: Website
   url: https://topoathletic.com
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
